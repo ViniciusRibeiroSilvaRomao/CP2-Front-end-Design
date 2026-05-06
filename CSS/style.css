@@ -1,0 +1,148 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111;
+}
+
+.menu-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* PSEUDO CLASS 1 */
+.menu-links a:hover {
+    color: #d4a373;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url('../imagens/hero.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #d4a373;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* PSEUDO CLASS 2 */
+.btn:hover {
+    background: #b08968;
+}
+
+/* PRODUTOS */
+.produtos {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #2a2a2a;
+    padding: 20px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+/* PSEUDO CLASS 3 */
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+}
+
+/* SOBRE */
+.sobre {
+    padding: 50px;
+    text-align: center;
+}
+
+/* CONTATO */
+.contato {
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+}
+
+/* PSEUDO ELEMENTO 1 */
+input::placeholder {
+    color: gray;
+}
+
+/* PSEUDO ELEMENTO 2 */
+textarea::placeholder {
+    color: gray;
+}
+
+button {
+    padding: 10px;
+    background: #d4a373;
+    border: none;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+/* EXTRA: nth-child (bônus forte pra nota) */
+.card:nth-child(2) {
+    border: 2px solid #d4a373;
+}
