@@ -1,18 +1,15 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* GLOBAL */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #1b1b1b;
     color: #fff;
 }
 
-/* MENU */
 .menu {
     display: flex;
     justify-content: space-between;
@@ -32,12 +29,10 @@ body {
     transition: 0.3s;
 }
 
-/* PSEUDO CLASS 1 */
 .menu-links a:hover {
     color: #d4a373;
 }
 
-/* HERO */
 .hero {
     height: 90vh;
     background: url('../imagens/hero.jpg') center/cover no-repeat;
@@ -59,12 +54,10 @@ body {
     transition: 0.3s;
 }
 
-/* PSEUDO CLASS 2 */
 .btn:hover {
     background: #b08968;
 }
 
-/* PRODUTOS */
 .produtos {
     padding: 50px;
     text-align: center;
@@ -84,7 +77,6 @@ body {
     transition: 0.3s;
 }
 
-/* PSEUDO CLASS 3 */
 .card:hover {
     transform: scale(1.05);
 }
@@ -93,13 +85,11 @@ body {
     width: 100%;
 }
 
-/* SOBRE */
 .sobre {
     padding: 50px;
     text-align: center;
 }
 
-/* CONTATO */
 .contato {
     padding: 50px;
     text-align: center;
@@ -118,12 +108,10 @@ input, textarea {
     border: none;
 }
 
-/* PSEUDO ELEMENTO 1 */
 input::placeholder {
     color: gray;
 }
 
-/* PSEUDO ELEMENTO 2 */
 textarea::placeholder {
     color: gray;
 }
@@ -135,14 +123,12 @@ button {
     cursor: pointer;
 }
 
-/* RODAPÉ */
 footer {
     text-align: center;
     padding: 20px;
     background: #111;
 }
 
-/* EXTRA: nth-child (bônus forte pra nota) */
 .card:nth-child(2) {
     border: 2px solid #d4a373;
 }
